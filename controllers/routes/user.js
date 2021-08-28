@@ -108,7 +108,7 @@ router.put('/:id', withAuth, (req, res) => {
     })
         .then(dbUserData => {
             if (!dbUserData[0]) {
-                res.status(404).json({ message: 'invalid ID' });
+                res.status(404).json({ message: 'user does not exist' });
                 return;
             }
             res.json(dbUserData);
@@ -127,7 +127,7 @@ router.delete('/:id', withAuth, (req, res) => {
     })
         .then(dbUserData => {
             if (!dbUserData) {
-                res.status(404).json({ message: 'invalid ID' });
+                res.status(404).json({ message: 'user does not exist' });
                 return;
             }
             res.json(dbUserData);
