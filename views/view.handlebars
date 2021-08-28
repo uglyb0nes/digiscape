@@ -1,0 +1,20 @@
+{{> info post}}
+
+{{#if loggedIn}}
+<form class="comment">
+    <div>
+        <textarea class="ml-5" name="body"></textarea>
+    </div>
+
+    <div>
+        <button class="button is-warning ml-5 mb-5" type="submit">Add Comment</button>
+    </div>
+
+</form>
+{{/if}}
+
+{{> comment post.comments}}
+
+{{#if loggedIn}}
+<script src="/js/comment.js" type="text/javascript"></script>
+{{/if}}
