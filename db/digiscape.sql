@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS digiscape_db;
+CREATE DATABASE digiscape_db;
