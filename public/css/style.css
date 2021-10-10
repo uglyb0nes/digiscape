@@ -7,7 +7,7 @@ html {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family:'Times New Roman', Times, serif;
     background-color: #170232;
 }
 
@@ -18,7 +18,11 @@ html {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white; 
+}
+
+.is-pulled-right a {
+    color: black; 
 }
 
 a:hover {
@@ -32,6 +36,7 @@ button {
     transition: background-color .1s;
     cursor: pointer;
     border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .post-list {
@@ -75,7 +80,7 @@ form label {
 }
 
 header {
-    border-bottom: 1px solid rgb(226, 217, 217);
+    border-bottom: 1px solid white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -157,7 +162,7 @@ main {
 }
 
 footer {
-    border-top: 1px solid rgb(226, 217, 217);
+    border-top: 1px solid white;
     display: flex;
     justify-content: center;
     padding: 1%;
@@ -172,4 +177,5 @@ footer {
 .rows {
     display: flex;
     flex-direction: column;
+    background-color: #170232;
 }
