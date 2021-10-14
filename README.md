@@ -24,7 +24,7 @@ A simple, interactive tech blog!
 Clone the repo, install required dependencies, and run the server.
 
 ## Usage
-Navigate to the live at deployment at https://digiscape.herokuapp.com
+Navigate to the live deployment at https://digiscape.herokuapp.com
 
 ## Questions
 Feel free to reach out to me if you have questions!<br>
