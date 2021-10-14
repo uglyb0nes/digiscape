@@ -3,7 +3,7 @@
 
 [![License](https://img.shields.io/badge/License-Unlicense%20-blue.svg)](https://opensource.org/licenses/Unlicense)
 
-![Screenshot]()
+![Screenshot](https://github.com/uglyb0nes/digiscape/blob/master/public/images/digiscape.png)
 
 ### [Tutorial Video](https://watch.screencastify.com/v/iVAeR52F9QM2aNXGRyfM)
 
@@ -24,7 +24,7 @@ A simple, interactive tech blog!
 Clone the repo, install required dependencies, and run the server.
 
 ## Usage
-Navigate to the live at deployment at (https://digiscape.herokuapp.com)
+Navigate to the live at deployment at https://digiscape.herokuapp.com
 
 ## Questions
 Feel free to reach out to me if you have questions!<br>
